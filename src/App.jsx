@@ -11,7 +11,7 @@ import Reviews from './pages/Reviews';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/ecogreen">
+    <BrowserRouter basename="/">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
