@@ -13,5 +13,5 @@ function copy404() {
 
 export default defineConfig({
   plugins: [react(), copy404()],
-  base: '/ecogreen/',
+  base: '/',
 })
